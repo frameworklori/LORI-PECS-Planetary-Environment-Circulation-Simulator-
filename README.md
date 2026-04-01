@@ -41,32 +41,25 @@ LORI-PECS simulates **the rules that generate them**.
 
 ## 🧩 Module Structure
 
-''''text
 modules/
 ├── core/
-│ ├── simulation_engine.py
-│ ├── parameter_controller.py
-│ └── output_analyzer.py
-│
+│   ├── simulation_engine.py
+│   ├── parameter_controller.py
+│   └── output_analyzer.py
 ├── physics/
-│ ├── heat_model.py
-│ ├── rotation_model.py
-│ ├── fluid_dynamics.py
-│ └── pressure_system.py
-│
+│   ├── heat_model.py
+│   ├── rotation_model.py
+│   ├── fluid_dynamics.py
+│   └── pressure_system.py
 ├── scenarios/
-│ ├── earth_like.json
-│ ├── extreme_heat.json
-│ └── low_atmosphere.json
-│
+│   ├── earth_like.json
+│   ├── extreme_heat.json
+│   └── low_atmosphere.json
 ├── visualization/
-│ ├── flow_map.py
-│ └── heatmap.py
-│
+│   ├── flow_map.py
+│   └── heatmap.py
 └── experiments/
-└── convection_test.md
-''''
-
+    └── convection_test.md
 
 ---
 
