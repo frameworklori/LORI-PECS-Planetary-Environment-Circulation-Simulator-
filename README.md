@@ -1,132 +1,112 @@
 # Atmosphere-Retention-vs-Magnetic-Shield-Test
 
-> Not a model of Earth — but a model of conditions that allow atmospheres to exist.
+> Do magnetic fields preserve atmospheres — or are they only one part of the system?
 
 ---
 
 ## 🌍 Overview
 
-LORI-PECS is a simulation framework designed to study how atmospheres form, evolve, and are retained under different planetary conditions.
+This project explores the relationship between magnetic fields and atmospheric retention.
 
-Rather than replicating Earth, this system explores **fundamental physical mechanisms** — including gravity, thermal dynamics, volatile release, and magnetic shielding — that determine whether an atmosphere can persist or be lost over time.
+Rather than assuming magnetic fields are the primary cause of atmospheric stability, this framework investigates how multiple physical factors interact — including gravity, temperature, volatile supply, and solar wind exposure.
+
+The goal is to determine whether magnetic shielding alone can preserve an atmosphere, or if it functions only as a secondary protection layer.
 
 ---
 
-## 🧠 Core Question
+## 🧠 Core Hypothesis
 
-Do magnetic fields create atmospheres?
+Magnetic fields do not create atmospheres.
 
-**No.**
-
-Atmospheres are governed by **retention dynamics**, not generation alone.
+They may reduce atmospheric loss — but only within a broader system of conditions.
 
 ---
 
 ## 🔑 Core Principle
 
 An atmosphere exists only if:
+
 gas supply ≥ gas loss
 
+Atmospheric loss mechanisms include:
 
-Atmospheric loss is controlled by:
-
-- Thermal escape (temperature-driven)
+- Thermal escape (Jeans escape)
 - Solar wind stripping
 - Impact erosion
 
-Retention is influenced by:
+Retention factors include:
 
-- Gravity (primary factor)
+- Gravity (primary)
 - Temperature (escape velocity threshold)
-- Magnetic field (protective role)
+- Magnetic shielding (protective modifier)
 
 ---
 
-## ⚙️ System Architecture
+## ⚙️ System Modules
 
-LORI-PECS is structured into four interacting modules:
-
----
-
-### 1. Core & Interior Module
-Simulates internal structure and heat behavior.
-
-- Material phase (Fe, Ni, alloys)
-- Heat generation and transfer
-- Core cooling and stability
+### 1. Volatile Release Module
+- Gas generation and release (water vapor, CO₂, etc.)
+- Expansion and decompression behavior
 
 ---
 
-### 2. Volatile Release Module
-Models gas production and release mechanisms.
-
-- Water vapor expansion
-- Gas release under decompression
-- Eruption and plume dynamics
-
----
-
-### 3. Atmospheric Retention Module
-Core focus of the system.
-
-- Gas escape rate modeling
+### 2. Atmospheric Retention Module
+- Escape rate modeling
 - Gravity vs thermal velocity
-- Solar wind interaction
-- Magnetic shielding effects
+- Gas lifetime estimation
 
 ---
 
-### 4. Proto-Atmosphere & Circulation Module
+### 3. Magnetic Shielding Module
+- Charged particle interaction
+- Solar wind deflection modeling
+- Comparative retention analysis
 
-- Gas accumulation
-- Density stratification
-- Early-stage convection (if conditions allow)
+---
+
+### 4. Experimental Simulation Modes
+
+#### Mode A: Vacuum Release Test
+- Observes gas escape without retention
+
+#### Mode B: Retention Threshold Test
+- Varies pressure, temperature, and density
+
+#### Mode C: Magnetic Shield Comparison
+- Compares gas loss with and without magnetic shielding
 
 ---
 
 ## 🔬 Key Insight
 
-Magnetic fields do not create atmospheres.
+Magnetic fields are not sufficient to guarantee atmospheric survival.
 
-They reduce atmospheric loss.
-
----
-
-## 📊 Experimental Modes
-
-### Mode A: Vacuum Release
-- Studies volatile escape without retention
-- Demonstrates rapid gas loss
+Atmospheric stability is a balance between supply and loss.
 
 ---
 
-### Mode B: Retention Threshold Test
-- Varies gravity, temperature, and gas density
-- Measures escape vs retention balance
+## 📊 Research Questions
 
----
-
-### Mode C: Magnetic Shielding Test
-- Compares gas loss with and without magnetic field
-- Simulates solar wind interaction
+- Can a magnetic field alone preserve an atmosphere?
+- What is the dominant factor: gravity, temperature, or magnetic shielding?
+- Under what conditions does atmospheric retention become stable?
 
 ---
 
 ## 🚀 Use Cases
 
-- Planetary habitability analysis
 - Mars atmospheric loss modeling
-- Exoplanet atmosphere retention studies
-- AI-assisted survival modeling
-- Climate system emergence research
+- Exoplanet habitability studies
+- Atmospheric escape simulation
+- Space environment engineering
 
 ---
 
 ## 🔐 Philosophy
 
-This system does not simulate planets.
+This project does not simulate planets.
 
-It simulates the conditions under which atmospheres survive — or disappear.
+It isolates and tests the conditions under which atmospheres survive — or disappear.
 
 ---
 
@@ -134,6 +114,5 @@ It simulates the conditions under which atmospheres survive — or disappear.
 
 Created under the LORI Framework  
 Founder: *Lori Ethical System*
-
 
 
