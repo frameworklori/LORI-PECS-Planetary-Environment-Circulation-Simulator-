@@ -60,9 +60,7 @@ modules/
 │   └── heatmap.py
 └── experiments/
     └── convection_test.md
-
----
-
+    
 ## 🚀 Use Cases
 
 - Climate system simulation
