@@ -41,7 +41,7 @@ LORI-PECS simulates **the rules that generate them**.
 
 ## 🧩 Module Structure
 
-'''text
+```text
 modules/
 ├── core/
 │ ├── simulation_engine.py
@@ -65,7 +65,7 @@ modules/
 │
 └── experiments/
 └── convection_test.md
-'''
+```
 
 ## 🚀 Use Cases
 
