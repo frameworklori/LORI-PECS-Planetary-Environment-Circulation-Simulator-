@@ -1,85 +1,132 @@
-# LORI-PECS  
-**Planetary Environment Circulation Simulator**
+# Atmosphere-Retention-vs-Magnetic-Shield-Test
 
-> Not a model of Earth — but a model of conditions that create worlds.
-This is not climate modeling. This is condition modeling for civilization survival.
+> Not a model of Earth — but a model of conditions that allow atmospheres to exist.
+
 ---
 
 ## 🌍 Overview
 
-LORI-PECS is a civilization-oriented simulation module designed to explore how planetary conditions shape atmospheric circulation, climate stability, and habitability.
+LORI-PECS is a simulation framework designed to study how atmospheres form, evolve, and are retained under different planetary conditions.
 
-Instead of recreating Earth, it models **cause-to-outcome relationships** — from heat gradients and rotation to environmental survivability — supporting long-term human survival and planetary adaptation strategies.
-
----
-
-## 🧠 Core Concept
-
-Traditional models simulate existing planets.  
-LORI-PECS simulates **the rules that generate them**.
+Rather than replicating Earth, this system explores **fundamental physical mechanisms** — including gravity, thermal dynamics, volatile release, and magnetic shielding — that determine whether an atmosphere can persist or be lost over time.
 
 ---
 
-## ⚙️ Key Parameters
+## 🧠 Core Question
 
-- Heat Gradient (core ↔ surface)
-- Rotation Speed
-- Atmospheric Density
-- Pressure Conditions
-- Fluid Dynamics Behavior
+Do magnetic fields create atmospheres?
 
----
+**No.**
 
-## 📊 Outputs
-
-- Atmospheric circulation patterns
-- Thermal distribution maps
-- Habitability zones
-- Extreme climate formation thresholds
+Atmospheres are governed by **retention dynamics**, not generation alone.
 
 ---
 
-## 🧩 Module Structure
+## 🔑 Core Principle
 
-```text
-modules/
-├── core/
-│ ├── simulation_engine.py
-│ ├── parameter_controller.py
-│ └── output_analyzer.py
-│
-├── physics/
-│ ├── heat_model.py
-│ ├── rotation_model.py
-│ ├── fluid_dynamics.py
-│ └── pressure_system.py
-│
-├── scenarios/
-│ ├── earth_like.json
-│ ├── extreme_heat.json
-│ └── low_atmosphere.json
-│
-├── visualization/
-│ ├── flow_map.py
-│ └── heatmap.py
-│
-└── experiments/
-└── convection_test.md
-```
+An atmosphere exists only if:
+gas supply ≥ gas loss
+
+
+Atmospheric loss is controlled by:
+
+- Thermal escape (temperature-driven)
+- Solar wind stripping
+- Impact erosion
+
+Retention is influenced by:
+
+- Gravity (primary factor)
+- Temperature (escape velocity threshold)
+- Magnetic field (protective role)
+
+---
+
+## ⚙️ System Architecture
+
+LORI-PECS is structured into four interacting modules:
+
+---
+
+### 1. Core & Interior Module
+Simulates internal structure and heat behavior.
+
+- Material phase (Fe, Ni, alloys)
+- Heat generation and transfer
+- Core cooling and stability
+
+---
+
+### 2. Volatile Release Module
+Models gas production and release mechanisms.
+
+- Water vapor expansion
+- Gas release under decompression
+- Eruption and plume dynamics
+
+---
+
+### 3. Atmospheric Retention Module
+Core focus of the system.
+
+- Gas escape rate modeling
+- Gravity vs thermal velocity
+- Solar wind interaction
+- Magnetic shielding effects
+
+---
+
+### 4. Proto-Atmosphere & Circulation Module
+
+- Gas accumulation
+- Density stratification
+- Early-stage convection (if conditions allow)
+
+---
+
+## 🔬 Key Insight
+
+Magnetic fields do not create atmospheres.
+
+They reduce atmospheric loss.
+
+---
+
+## 📊 Experimental Modes
+
+### Mode A: Vacuum Release
+- Studies volatile escape without retention
+- Demonstrates rapid gas loss
+
+---
+
+### Mode B: Retention Threshold Test
+- Varies gravity, temperature, and gas density
+- Measures escape vs retention balance
+
+---
+
+### Mode C: Magnetic Shielding Test
+- Compares gas loss with and without magnetic field
+- Simulates solar wind interaction
+
+---
 
 ## 🚀 Use Cases
 
-- Climate system simulation
-- Planetary habitability research
-- AI-assisted environmental modeling
-- Civilization survival analysis
+- Planetary habitability analysis
+- Mars atmospheric loss modeling
+- Exoplanet atmosphere retention studies
+- AI-assisted survival modeling
+- Climate system emergence research
 
 ---
 
 ## 🔐 Philosophy
 
-This system is not designed to replicate reality,  
-but to understand how reality emerges from conditions.
+This system does not simulate planets.
+
+It simulates the conditions under which atmospheres survive — or disappear.
 
 ---
 
@@ -87,70 +134,6 @@ but to understand how reality emerges from conditions.
 
 Created under the LORI Framework  
 Founder: *Lori Ethical System*
-
-------
-# LORI-PECS
-行星環境環流模擬器
-這不是地球模型——而是塑造世界條件的模型。
-這不是氣候建模，而是為了文明存續而進行的條件建模。
-
-## 🌍 概述
-LORI-PECS 是一個以文明為導向的模���模組，旨在探索行星條件如何塑造大氣環流、氣候穩定性與可居住性。
-
-它不是重現地球，而是模擬從成因到結果的關係——從熱梯度與自轉，到環境可生存性——以支援人類長期生存與行星適應策略。
-
-## 🧠 核心概念
-傳統模型模擬既有行星。
-LORI-PECS 模擬的是「生成行星的規則」。
-
-## ⚙️ 關鍵參數
-熱梯度（地核 ↔ 地表）
-自轉速度
-大氣密度
-壓力條件
-流體動力學行為
-📊 輸出
-大氣環流模式
-熱分佈圖
-可居住區域
-極端氣候形成閾值
-## 模組結構
-Text
-modules/
-├── core/
-│   ├── simulation_engine.py
-│   ├── parameter_controller.py
-│   └── output_analyzer.py
-│
-├── physics/
-│   ├── heat_model.py
-│   ├── rotation_model.py
-│   ├── fluid_dynamics.py
-│   └── pressure_system.py
-│
-├── scenarios/
-│   ├── earth_like.json
-│   ├── extreme_heat.json
-│   └── low_atmosphere.json
-│
-├── visualization/
-│   ├── flow_map.py
-│   └── heatmap.py
-│
-└── experiments/
-    └── convection_test.md
-## 🚀 使用情境
-氣候系統模擬
-行星可居住性研究
-AI 輔助環境建模
-文明存續分析
-## 🔐 理念
-此系統的設計目的不是複製現實，
-而是理解現實如何由條件中湧現。
-
-## 🧾 署名
-建立於 LORI Framework 之下
-創辦人：Lori Ethical System
 
 
 
