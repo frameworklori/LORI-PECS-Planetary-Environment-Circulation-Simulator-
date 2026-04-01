@@ -2,7 +2,7 @@
 **Planetary Environment Circulation Simulator**
 
 > Not a model of Earth — but a model of conditions that create worlds.
-
+This is not climate modeling. This is condition modeling for civilization survival.
 ---
 
 ## 🌍 Overview
