@@ -37,7 +37,7 @@ Unauthorized usage, replication, or commercialization
 will be considered a violation of intellectual ownership.
 
 ---
-
+```text
 LORI-PECS/
 │
 ├── README.md
@@ -59,6 +59,7 @@ LORI-PECS/
 │
 └── scripts/
     └── run_simulation.py
+```
 
 ## Contact
 
