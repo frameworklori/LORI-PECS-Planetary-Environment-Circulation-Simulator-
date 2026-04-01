@@ -1,6 +1,7 @@
 # Atmosphere-Retention-vs-Magnetic-Shield-Test
 
 1.Do magnetic fields preserve atmospheres — or are they only one part of the system?
+
 2.Does a magnetic field alone ensure atmospheric retention, or merely reduce the rate of loss?
 
 ---
