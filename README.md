@@ -1,6 +1,9 @@
 # Atmosphere-Retention-vs-Magnetic-Shield-Test
 
 > Do magnetic fields preserve atmospheres — or are they only one part of the system?
+>
+> A magnetic field does not guarantee an atmosphere.
+It only slows its loss.
 
 ---
 
