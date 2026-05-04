@@ -144,6 +144,16 @@ It isolates and tests the conditions under which atmospheres survive — or disa
 
 ---
 
+## Physics Feasibility Status
+
+Current status: feasible as a conceptual physics testbed, not yet a calibrated planetary atmosphere simulator.
+
+The core hypothesis is physically plausible: a magnetic field can modify charged-particle escape, but atmosphere retention depends on gravity, temperature, molecular mass, volatile supply, stellar wind, radiation, and time.
+
+See: `docs/PHYSICS_FEASIBILITY_REVIEW.md`
+
+---
+
 ## 🧾 Attribution
 
 Created under the LORI Framework  
